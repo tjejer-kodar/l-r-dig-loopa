@@ -1,10 +1,9 @@
-//1. Create a constant variable and set the value to be the
-//   element with id "plantCards" to be able to populate the
-//   HTML with more plants
+//1. Skapa en konstant variabel och sätt värdet till elementet
+//   med id't "plantCards" för att kunna fylla HTML-elementet
+//   med fler plantor
 
-
-//2. Here's an array with all the plant objects.
-//   Feel free to add more or change the values
+//2. Här är en array med alla plant-objekt.
+//   Lägg gärna till fler plantor om du vill!
 const plants = [
   {
     name: "Monstera",
@@ -43,18 +42,20 @@ const plants = [
   }
 ]
 
-//3. Your assignment is that you should use the array above to
-//   populate the element with the id plantCards. Begin with looping
-//   over the array and for each plant you console.log e.g. its name.
+//Din uppgift är att använda arrayen ovan för att fylla HTML-elementet
+//med id't "plantCards" med flera plantor.
 
-//4. Did you get all the names written out in the console? Cool!
-//   Now we can start modifying the DOM. Use the variable
-//   you created in the top of this file and change its HTML so that
-//   each plant gets its own card.
-//   Hint! To not overwrite every card you can use += to add on the HTML
-//   that's already there.
+//3. Börja med att loopa över arrayen och för varje planta loggar du
+//   t.ex. plantans namn i consollen.
 
-//   Hint 2! To have the same styling on these cards as the card that
-//   is already there, check out what elements and class names are
-//   used in the HTML file. Use the same ones for your cards and they
-//   will look the same. PS. Feel free to change the styling as well!
+//4. Fick du alla namnen utskrivna i consollen? Härligt! Nu kan vi börja
+//   modifiera DOM-en. Använd varaibeln som du skapade i början av denna
+//   fil och ändra dess HTML så att varje planta får ett eget kort.
+
+//Hint! För att inte skriva över varje kort med det nya kortet kan du
+//skriva += för att lägga till saker till den HTML som redan finns.
+
+//Hint 2! För att få samma styling på dessa kort som på korten som redan
+//finns - se efter vilka klassnamn elementen i HTML-filen är tilldelade.
+
+//PS. Ändra gärna stylingen för att göra det mer personligt!
